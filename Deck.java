@@ -27,6 +27,7 @@ public class Deck {
         
     }
     
-    public void shuffle() {
-    }
+    /*public void shuffle() {
+        Collections.shuffle(kaarten);
+    }*/
 }
