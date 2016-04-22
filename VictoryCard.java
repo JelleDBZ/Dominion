@@ -6,10 +6,8 @@ public class VictoryCard extends Card {
 	public VictoryCard(String name, int cost, int valueCard){
 		super(name, cost);
 		this.valueCard = valueCard;
-		
+		eenTypeKaart = TypeKaart.VICTORY;
 	}
 	
-	Card Estate = new VictoryCard("Estate", 2, 1); /* 24 estates */
-	Card Duchy = new VictoryCard("Duchy", 5, 3); /* 12 duchies */
-	Card Province = new VictoryCard("Province", 8, 6);/* 12 provinces */
+	
 }

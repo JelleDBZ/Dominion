@@ -20,13 +20,14 @@ public class Game extends Applet {
             
             // print alle kaarten in de hand van player 1
             // c = huidige kaart in loop
-            for (Card c : player1.getHand()) {
-                System.out.println(c.getName());
-            }
+            //for (Card c : player1.getHand()) {
+            //    System.out.println(c.getName());
+            //}
             //hetzelfde als hierboven
-            for (int i = 0; i < player1.getHand().size(); i++) {
-                System.out.println(player1.getHand().get(i).getName());
+            for (int i = 0; i < player1.getPlayerDeck().size(); i++) {
+                System.out.println(player1.getPlayerDeck().get(i).getName());
             }
+            
         }    
             // game loop
             /* while (!isGameOver) {

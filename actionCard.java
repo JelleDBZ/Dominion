@@ -13,6 +13,7 @@ public class actionCard extends Card {
 
     public actionCard(String name, int cost) {
         super(name, cost);
+        eenTypeKaart = TypeKaart.ACTION;
     }
     
 }
